@@ -10,4 +10,6 @@ For this dataset, we should study the Kenya’s national education system, speci
 ## 2. Brief analysis
 The dataset contains **31.230 rows** and **38 features**. We find **12 object features (text)** and **26 numeric features (float64)**.
 There´s only one **missing value** (NaN) in each column, except in features *X*, *Y* and *FID*.
+![MissingValuesPerColumn](/images/MissingValuesPerColumn.png)
 
+We check if  missing value is located in the same row for all the features. In that case, we drop the row.
